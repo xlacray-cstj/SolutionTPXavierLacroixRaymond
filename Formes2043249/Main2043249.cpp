@@ -4,9 +4,9 @@
 
 
 #include <iostream>		// Bibliothèque qui fournit des fonctions pour permettre la communication entre le programme et l'utilisateur
-#include <time.h>		// Bibliothèque qui fournit des fonctions basées sur les dates et heures
-#include "Menus2043249.h"		// Bibliothèque du programmeur rassemblant les fonctions permettant la gestion des menus et la validation des choix fait dans ces menus
-#include "Formes2043249.h"		// Bibliothèque du programmeur offrant des fonctions permettant de dessiner différentes formes, pleines ou vides
+#include <time.h>		// Bibliothèque qui fournit des fonctions basées sur les dates et heures		// Bibliothèque du programmeur rassemblant les fonctions permettant la gestion des menus et la validation des choix fait dans ces menus
+#include "Formes2043249.h" // Bibliothèque du programmeur offrant des fonctions permettant de dessiner différentes formes, pleines ou vides"
+#include "Menus2043249.h"
 using namespace std;
 
 int main()
@@ -34,7 +34,7 @@ int main()
 	while (choixForme != QUITTER)
 	{
 		// Afficher le menu du remplissage et lire un choix valide
-      choixRemplissage = validerMenu(2 /* Menu du remplissage */, RETOUR /* Nombres d'options au menu */);
+		choixRemplissage = validerMenu(2 /* Menu du remplissage */, RETOUR /* Nombres d'options au menu */);
 
 		// Si l'utilisateur n'est pas revenu au menu principal
       if (choixRemplissage != RETOUR)
